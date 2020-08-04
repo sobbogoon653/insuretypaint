@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif !important;
+}
+li{
+    list-style:none;
+}
+p{
+    font-size:18px !important;
+    color:#323232 !important;
+}
+body{
+    line-height:1.6rem;
+    position: relative;
+}
+a{
+    text-decoration:none !important;
+    color:#F0810F !important;
+}
+a:hover{
+    text-decoration: underline !important;
+    color:#000000 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               Main CSS Start                               */
+/* -------------------------------------------------------------------------- */
+
+
+/* ---------------------------- Header Part Start --------------------------- */
+
+.header,.container_menu_bg{
+    background:#F0810F;
+}
+.brand_logo_size img{
+    width: 200px;
+    height: 55px;
+}
+.header a{
+    color:#F5F5F5 !important;
+}
+.header a:hover{
+    color:#364F6B !important;
+    text-decoration: none !important;
+}
+ul li.active a{
+    color:#364F6B !important;
+    text-decoration: none !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                             Ad Space CSS Start                             */
+/* -------------------------------------------------------------------------- */
+.top_ad_space{
+    transform: translate(10%, 19%);
+}
+.top_ad_space img{
+    width: 49%;
+    height: 191px;
+    transform: translate(1%, 40%);
+}
+
+
+/* ------------------------- News/ ContentPart Start ------------------------ */
+.news_section,.news_section_under_bg{
+    color:#2F3131;
+    padding-left:0;
+    padding-right:0;
+}
+.single_new_top{
+    margin-top:114px !important;
+}
+.single_news{
+    border-bottom:2px solid #F0810F;
+    margin: 15px 0 15px 0;
+    height:auto;
+    padding: 20px 0;
+}
+.ad img{
+    width:100% !important;
+    height:270px !important;
+}
+.single_news:nth-child(6){
+    border-bottom:0px solid #F0810F;
+}
+.single_news img{
+    width:100%;
+    height:auto;
+}
+.single_news iframe{
+    width:100%;
+    height:40vh;
+}
+.single_news .single_content_header{
+    font-size:2.4rem;
+}
+.single_news .single_content_header span{
+    font-size:1.4rem;
+}
+.margin_left{
+    margin-left:-13px;
+}
+
+
+/* -------------------------------- Side Bar -------------------------------- */
+.custom_image_asidebar img{
+    width:64px;
+    height:64px;
+}
+.border_item{
+    width:100%;
+    height:30px;
+    border-bottom:1px solid #F38E58;
+    margin: 20px 0;
+}
+.single_news{
+    overflow: hidden;
+}
+.single_side_bar{
+    margin: 15px 0 15px 0;
+    padding:20px 0;
+    border-bottom:1px solid #F38E58;  
+}
+.single_side_bar img{
+    width:100%;
+}
+.aside_ad_bar img{
+    width:100%;
+    height:155px;
+}
+.single_side_bar .side_bar_social_div{
+    transform: translate(5px, 3px);
+}
+.single_side_bar a{
+    margin-right:1rem;
+}
+.single_side_bar a i{
+    font-size: 1.4rem;
+}
+.right_top_para:hover{
+    text-decoration: none !important; 
+}
+.right_top_para:hover p{
+    color:#F38E58 !important; 
+}
+
+/* --------------------------------- Footer Top --------------------------------- */
+.footer_top{
+    background:#F8F1E5;
+    padding:20px 15px;
+}
+.footer_top_single h2{
+    font-size:1rem;
+    font-weight:700;
+    margin-bottom:10px;
+}
+.footer_top img{
+    width: 80%;
+    height: 63px;
+    transform: translate(0%, 60%);
+}
+.footer_top_single i{
+    font-size: 3rem;
+    color: #F38E58;
+    margin-right: 7px;
+}
+.footer_top_single a:hover i{
+    color: #000000;
+}
+.submit_btn{
+    background:#F0810F !important;
+    color:#ffffff !important;
+    font-size:1rem;
+    font-weight:500;
+    transition:1.3s;
+}
+.submit_btn:hover{
+    background:#462c12 !important;
+}
+
+
+/* --------------------------------- footer --------------------------------- */
+.footer{
+    background:#F0810F;
+    text-align:center;
+    padding:1px 0px;
+}
+.footer p{
+    color:#ffffff !important;
+    padding: 18px 3px 10px 2px;
+}
